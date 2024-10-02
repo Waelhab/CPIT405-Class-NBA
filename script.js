@@ -127,7 +127,7 @@ function addTeamToNeverWonTable(teamName) {
 
 // Timer variables
 let timer;  
-let timeLeft = 5; 
+let timeLeft = 30; 
 
 
 document.getElementById('teamInput').addEventListener('input', function() {
