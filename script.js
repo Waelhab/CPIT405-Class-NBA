@@ -127,7 +127,7 @@ function addTeamToNeverWonTable(teamName) {
 
 // Timer variables
 let timer;  
-let timeLeft = 30; 
+let timeLeft = 5; 
 
 
 document.getElementById('teamInput').addEventListener('input', function() {
@@ -145,7 +145,8 @@ function startTimer() {
             clearInterval(timer);
             const inputField = document.getElementById('teamInput');
             inputField.disabled = true; 
-            inputField.placeholder  = "time's up! the input is now disabled."
+            inputField.placeholder  = `Congrats , Your score is ${score}`
+            scoreboard.classList.add("green")
         } else {
             timeLeft--;
             timerDisplay.textContent = timeLeft; 
