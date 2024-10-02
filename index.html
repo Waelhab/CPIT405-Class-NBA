@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events Activity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>  
+    <h1>NBA Title Quiz</h1>
+    <p>Time remaining: <span id="timer">30</span> seconds</p>
+    <p>Score Board : <span id="score">0</span></p>
+
+    <input type="text" id="teamInput" placeholder="Enter an NBA team name">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Teams that have won NBA titles</th>
+            </tr>
+            <tr>
+                <th>Team</th>
+                <th>Years</th>
+            </tr>
+        </thead>
+        <tbody id="wonTableBody"></tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Teams that have never won an NBA title</th>
+            </tr>
+        </thead>
+        <tbody id="neverWonTableBody"></tbody>
+    </table>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">NBA Teams</th>
+            </tr>
+            <tr><td>Boston Celtics</td><td>Los Angeles Lakers</td><td>Golden State Warriors</td><td>Chicago Bulls</td></tr>
+<tr><td>San Antonio Spurs</td><td>Philadelphia 76ers</td><td>Detroit Pistons</td><td>Miami Heat</td></tr>
+<tr><td>Milwaukee Bucks</td><td>Houston Rockets</td><td>New York Knicks</td><td>Toronto Raptors</td></tr>
+<tr><td>Cleveland Cavaliers</td><td>Dallas Mavericks</td><td>Portland Trail Blazers</td><td>Washington Wizards</td></tr>
+<tr><td>Seattle SuperSonics</td><td>Atlanta Hawks</td><td>Sacramento Kings</td><td>Denver Nuggets</td></tr>
+<tr><td>Phoenix Suns</td><td>Utah Jazz</td><td>Brooklyn Nets</td><td>Orlando Magic</td></tr>
+<tr><td>Indiana Pacers</td><td>Charlotte Hornets</td><td>Minnesota Timberwolves</td><td>Memphis Grizzlies</td></tr>
+<tr><td>New Orleans Pelicans</td><td>Los Angeles Clippers</td><td>Oklahoma City Thunder</td><td></td></tr>
+
+        </thead>
+        <tbody id="teams"></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
